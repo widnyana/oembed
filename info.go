@@ -5,9 +5,7 @@ import (
 	"io"
 	"io/ioutil"
 
-	"fmt"
 	"github.com/jeffail/gabs"
-	"reflect"
 )
 
 // Info returns information for embedding website
@@ -53,15 +51,6 @@ func (info *Info) FillFromJSON(r io.Reader) error {
 
 	var strVal string
 	var ok bool
-
-	fmt.Printf("--> jsonParsed: %#v", jsonParsed)
-	kk, ok := jsonParsed.Path("height").Data().(float64)
-	fmt.Printf(
-		"height data type: %s | %#v | %#v",
-		reflect.TypeOf(jsonParsed.Path("height").Data()).String(),
-		kk,
-		jsonParsed.Path("height").Data(),
-	)
 
 	if strVal, ok = jsonParsed.Path("type").Data().(string); ok {
 		info.Type = strVal
