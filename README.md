@@ -1,9 +1,13 @@
 oEmbed
 ======
+[![GoDoc](https://godoc.org/github.com/widnyana/oembed?status.svg)](https://godoc.org/github.com/widnyana/oembed)
+[![Build Status](https://travis-ci.org/widnyana/oembed.svg)](https://travis-ci.org/widnyana/oembed)
+
+
 golang [oEmbed](http://oembed.com/) library
 
-    oEmbed is a format for allowing an embedded representation of a URL on third party sites. 
-    The simple API allows a website to display embedded content (such as photos or videos) 
+    oEmbed is a format for allowing an embedded representation of a URL on third party sites.
+    The simple API allows a website to display embedded content (such as photos or videos)
     when a user posts a link to that resource, without having to parse the resource directly.
     -- http://oembed.com/
 
@@ -16,7 +20,7 @@ just like another golang library, after defining your `$GOPATH`, execute this co
 Usage
 -----
 
-oembed came with providers rule called `providers.json`, this module rely on that list of provider, 
+oembed came with providers rule called `providers.json`, this module rely on that list of provider,
 and you can add more providers as you need. kudos to Vitaly Dyatlov for this great design!
 
 this is a basic example on how to use this library:
