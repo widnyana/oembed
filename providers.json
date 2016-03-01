@@ -988,5 +988,19 @@
                 "discovery": true
             }
         ]
+    },
+    {
+        "provider_name": "Twitter",
+        "provider_url": "https:\/\/twitter.com",
+        "endpoints": [
+            {
+                "schemes": [
+                    "https:\/\/twitter.com\/*\/status\/*",
+                    "https:\/\/twitter.com\/i\/moments\/*"
+                ],
+                "url": "https:\/\/publish.twitter.com\/oembed.json",
+                "discovery": true
+            }
+        ]
     }
 ]
