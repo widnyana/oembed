@@ -1,11 +1,11 @@
 package oembed
 
 import (
-	"testing"
 	"fmt"
+	"testing"
 )
 
-func TestGetType(t *testing.T)  {
+func TestGetType(t *testing.T) {
 	var result string
 	var strVal string = `string`
 	var intval int = 100

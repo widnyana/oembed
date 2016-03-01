@@ -1,9 +1,9 @@
 package oembed
 
 import (
+	"log"
 	"reflect"
 	"strconv"
-	"log"
 )
 
 // getType will return data type as a string.
