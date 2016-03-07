@@ -11,11 +11,95 @@ golang [oEmbed](http://oembed.com/) library
     when a user posts a link to that resource, without having to parse the resource directly.
     -- http://oembed.com/
 
+
+Supported Providers
+-------------------
+- 23HQ
+- Alpha App Net
+- Animoto
+- AudioSnaps
+- BlipTV
+- Cacoo
+- ChartBlocks
+- CircuitLab
+- Clyp
+- CollegeHumor
+- Coub
+- Crowd Ranking
+- Daily Mile
+- Dailymotion
+- Deviantart.com
+- Dipity
+- Dotsub
+- Embed Articles
+- Embedly
+- Flickr
+- FunnyOrDie
+- GMEP
+- Geograph Britain and Ireland
+- Geograph Channel Islands
+- Geograph Germany
+- Getty Images
+- HuffDuffer
+- Hulu
+- IFTTT
+- Infogram
+- Instagram
+- Kickstarter
+- LearningApps.org
+- Meetup
+- MixCloud
+- Moby Picture
+- Official FM
+- On Aol
+- Ora TV
+- Poll Daddy
+- Poll Everywhere
+- Portfolium
+- Quiz.biz
+- Quizz.biz
+- RapidEngage
+- Rdio
+- ReleaseWire
+- ReverbNation
+- Roomshare
+- Sapo Videos
+- Screenr
+- Scribd
+- ShortNote
+- Shoudio
+- Sketchfab
+- SlideShare
+- SmugMug
+- SoundCloud
+- SpeakerDeck
+- Ted
+- They Said So
+- Topy
+- Twitter
+- Ustream
+- Viddler
+- VideoFork
+- VideoJug
+- Vimeo
+- WordPress.com
+- YFrog
+- YouTube
+- amCharts Live Editor
+- chirbit.com
+- edocr
+- iFixit
+- iSnare Articles
+- nfb.ca
+
+
 Instalation
 -----------
 just like another golang library, after defining your `$GOPATH`, execute this command:
 
-```go get github.com/widnyana/oembed```
+```
+go get github.com/widnyana/oembed
+```
 
 Usage
 -----
