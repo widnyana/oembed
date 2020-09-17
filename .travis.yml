@@ -5,5 +5,5 @@ go:
   - 1.6
 
 script:
-  - go get github.com/jeffail/gabs
+  - go get github.com/Jeffail/gabs
   - go test -v
